@@ -1,0 +1,32 @@
+
+.container {
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 0.5px black;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+    margin: 0 5rem;
+}
+
+li {
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 5rem;
+}
