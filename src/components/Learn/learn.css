@@ -1,7 +1,7 @@
 .learn-content {
     margin: 0;
     width: 100vw;
-    height: 50rem;
+    height: 35rem;
 }
 
 .content-wrap {
@@ -19,7 +19,7 @@
 
 .card {
     width: 50rem;
-    height: 20rem;
+    height: 10rem;
     margin: 0 0.5rem;
     padding: 1rem;
 }
