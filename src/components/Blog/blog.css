@@ -1,0 +1,12 @@
+.blog {
+    margin: 0;
+    width: 100vw;
+    height: 50rem;
+}
+
+.faq-wrapper {
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
