@@ -5,28 +5,30 @@ import twitter from '../../assets/twitter.png';
 
 import ScrollToTop from "react-scroll-to-top";
 
+import { Element } from "react-scroll";
+
 export default function Connect() {
 
   return (
-    <div className="connect">
+    <Element name="Contact" className="connect">
         <ScrollToTop smooth/>
         <div className="connect-wrap">
             <h2>Connect With Us On:</h2>
             <div className="socials">
                 <div className="fb">
-                    <a href="">
+                    <a href="https://www.facebook.com/SalaamSwipe/">
                         <img src={facebook} alt="facebook" />
                     </a>
                     <p>facebook</p>
                 </div>
                 <div className="tweet">
-                    <a href="">
+                    <a href="https://twitter.com/salaam_swipe">
                         <img src={twitter} alt="twitter" />
                     </a>
                     <p>twitter</p>
                 </div>
             </div>
         </div>
-    </div>
+    </Element>
   );
 }
