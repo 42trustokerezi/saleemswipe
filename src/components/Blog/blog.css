@@ -1,7 +1,7 @@
 .blog {
     margin: 0;
     width: 100vw;
-    height: 20rem;
+    height: 15rem;
 }
 
 .faq-wrapper {
@@ -9,6 +9,10 @@
     margin: auto;
     text-align: center;
     margin-top: 5rem;
+}
+
+.faq-wrapper h1 {
+    color: #e76f51;
 }
 
 .faq-content {
@@ -34,4 +38,26 @@
 .faq p {
     font-size: 0.8rem;
     margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 320px)and (max-width: 745px){
+    .faq-wrapper {
+        width: 80vw
+    }
+
+    .faq-content {
+        flex-direction: column;
+    }
+
+    .faq-wrapper h1{
+        font-size: 1.5rem;
+    }
+
+    .faq {
+        margin: 0.5rem 0;
+    }
+
+    .faq a {
+        font-size: 0.6rem;
+    }
 }

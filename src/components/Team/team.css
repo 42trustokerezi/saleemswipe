@@ -10,11 +10,12 @@
     width: 60vw;
     margin: auto;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .team-title {
     font-size: 2rem;
+    color: #e76f51;
 }
 
 .team-body {
@@ -22,3 +23,16 @@
     line-height: 1.5;
 }
 
+@media screen and (min-width: 320px) and (max-width: 745px) {
+    .wrap {
+        width: 80vw;
+    }
+    .team-title {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .team-body {
+        font-size: 1rem;
+    }
+}

@@ -1,20 +1,25 @@
 import React from 'react';
 import './connect.css';
-import facebook fro
+import facebook from '../../assets/facebook.png';
+import twitter from '../../assets/twitter.png';
 
 export default function Connect() {
   return (
-    <div>
-        <div>
+    <div className="connect">
+        <div className="connect-wrap">
             <h2>Connect With Us On:</h2>
             <div className="socials">
                 <div className="fb">
-                    <a href=""></a>
-                    facebook
+                    <a href="">
+                        <img src={facebook} alt="facebook" />
+                    </a>
+                    <p>facebook</p>
                 </div>
                 <div className="tweet">
-                    <a href=""></a>
-                    twitter
+                    <a href="">
+                        <img src={twitter} alt="twitter" />
+                    </a>
+                    <p>twitter</p>
                 </div>
             </div>
         </div>

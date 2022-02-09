@@ -5,10 +5,14 @@
 }
 
 .content-wrap {
-    width: 80vw;
+    width: 90vw;
     margin: auto;
     text-align: center;
     margin-top: 5rem;
+}
+
+.content-wrap h1 {
+    color: #e76f51;
 }
 
 .cards {
@@ -18,13 +22,16 @@
 }
 
 .card {
-    width: 50rem;
-    height: 10rem;
+    
+    width: fit-content;
+    height: fit-content;
     margin: 0 0.5rem;
     padding: 1rem;
+
 }
 
 .card-title {
+    color: #e76f51;
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -32,4 +39,28 @@
 .card-text {
     font-size: 1rem;
     line-height: 1.5rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 745px) {
+    .learn-content {
+        height: 65rem;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card img {
+        width: 7rem;
+        height: 7rem;
+    }
+
+
+    .content-wrap h1 {
+        font-size: 1.5rem;
+    }
+
+    .content-wrap h3 {
+        font-size: 1rem;
+    }
 }

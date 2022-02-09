@@ -1,0 +1,38 @@
+.connect {
+    margin: 0;
+    width: 100vw;
+    height: 15rem;
+}
+
+.connect-wrap {
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials img {
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.socials p{
+    margin: 0
+}
+
+@media screen and (min-width: 320px) and (max-width: 745px){
+
+    .connect-wrap {
+        width: 80vw;
+    }
+    .connect-wrap h2 {
+        font-size: 1.5rem;
+    }
+}
