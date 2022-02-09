@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <Navbar/>
-      {/*<Hero/>*/}
+      {/*<Hero/>
       <Banner />
       <Team/>
       <Learn />
       <Blog />
-      <Connect />
+      <Connect />*/}
     </div>
   );
 }
